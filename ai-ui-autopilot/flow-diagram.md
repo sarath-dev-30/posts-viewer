@@ -1,21 +1,25 @@
 # AI UI Autopilot Flow Diagram
 
 ```mermaid
-flowchart TD
-    A[Start] --> B[Orchestrator Agent: Read Product Requirements]
-    B --> C[Architect Agent: Design Feature]
-    C --> D[UI Developer Agent: Implement Feature]
-    D --> E[TEST Agent: Run Tests]
-    E --> F[QA Agent: Validate Feature]
-    F --> G[GitOps Agent: Commit and Push to Repository]
-    G --> H[End]
+sequenceDiagram
+    participant User
+    participant Orchestrator
+    participant Architect
+    participant UI_Developer
+    participant TEST
+    participant QA
+    participant GitOps
 
-    subgraph Agents
-        B
-        C
-        D
-        E
-        F
-        G
-    end
+    User->>Orchestrator: Provide Product Requirements
+    Orchestrator->>Architect: Request Feature Design
+    Architect-->>Orchestrator: Design Specifications
+    Orchestrator->>UI_Developer: Request Implementation
+    UI_Developer-->>Orchestrator: Code Implementation
+    Orchestrator->>TEST: Request Testing
+    TEST-->>Orchestrator: Test Results
+    Orchestrator->>QA: Request Validation
+    QA-->>Orchestrator: Validation Report
+    Orchestrator->>GitOps: Request Commit & Push
+    GitOps-->>Orchestrator: Confirmation
+    Orchestrator-->>User: Feature Complete
 ```
