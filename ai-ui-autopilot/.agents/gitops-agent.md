@@ -28,7 +28,7 @@ git commit -m "<generated-message>"
 
 5. Push changes.
 
-git push origin main
+git push origin HEAD
 
 Output:
 Committed and pushed changes to repository.
