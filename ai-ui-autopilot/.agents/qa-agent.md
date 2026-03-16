@@ -15,7 +15,5 @@ Coverage Validation
 - Run test suite
 - Ensure coverage >= 80%
 
-If coverage < 80%:
-Ask Test Agent to generate additional tests.
-If problems are detected:
-Fix them automatically.
+Skills:
+Refer to `.skills/qa-agent-skills.md`

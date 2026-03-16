@@ -14,3 +14,6 @@ Rules:
 
 Do not modify unrelated code.
 Keep components reusable.
+
+Skills:
+Refer to `.skills/ui-agent-skills.md`

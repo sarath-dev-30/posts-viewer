@@ -13,3 +13,6 @@ Tasks:
 3. Define data flow between components.
 
 Output must be minimal and scalable.
+
+Skills:
+Refer to `.skills/architect-agent-skills.md`

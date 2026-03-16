@@ -13,7 +13,7 @@ Folder Structure
 src/
   components/
   pages/
-  hooks/
+  hooks/S
   services/
 
 Rules

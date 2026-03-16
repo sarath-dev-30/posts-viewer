@@ -23,3 +23,6 @@ Rules:
 
 Each feature must produce one git commit.
 Do not skip steps.
+
+Skills:
+Refer to `.skills/orchestrator-agent-skills.md`

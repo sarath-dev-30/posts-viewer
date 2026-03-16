@@ -25,9 +25,5 @@ Rules
 - Prefer behavior-based tests using React Testing Library.
 - Focus on user interaction and component logic.
 
-Tasks
-
-1. Identify components, hooks, or services created for the feature.
-2. Write unit tests for them.
-3. Ensure coverage is ≥ 80%.
-4. If coverage is below 80%, add more tests.
+Skills:
+Refer to `.skills/test-agent-skills.md`

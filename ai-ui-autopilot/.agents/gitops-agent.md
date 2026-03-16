@@ -26,3 +26,6 @@ git commit -m "<generated-message>"
 5. Push changes.
 
 git push origin main
+
+Skills:
+Refer to `.skills/gitops-agent-skills.md`
