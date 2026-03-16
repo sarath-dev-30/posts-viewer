@@ -3,9 +3,10 @@ import TaskItem from './TaskItem'
 
 type TaskListProps = {
   tasks: Task[]
+  onDelete?: (taskId: string) => void
 }
 
-export default function TaskList({ tasks }: TaskListProps) {
+export default function TaskList({ tasks, onDelete }: TaskListProps) {
   if (tasks.length === 0) {
     return (
       <div className="rounded-md border border-dashed border-slate-200 bg-white p-8 text-center">
@@ -17,7 +18,7 @@ export default function TaskList({ tasks }: TaskListProps) {
   return (
     <div className="flex flex-col gap-3">
       {tasks.map(task => (
-        <TaskItem key={task.id} task={task} />
+        <TaskItem key={task.id} task={task} onDelete={onDelete} />
       ))}
     </div>
   )

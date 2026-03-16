@@ -4,7 +4,7 @@ import TaskList from '../components/TaskList'
 import { useTasks } from '../hooks/useTasks'
 
 export default function HomePage() {
-  const { tasks, addTask } = useTasks()
+  const { tasks, addTask, deleteTask } = useTasks()
   const taskCountLabel = useMemo(() => {
     if (tasks.length === 0) return 'No tasks yet'
     if (tasks.length === 1) return '1 task'
@@ -29,7 +29,7 @@ export default function HomePage() {
 
         <div className="rounded-xl bg-white p-6 shadow-sm">
           <h2 className="mb-4 text-lg font-semibold">Tasks</h2>
-          <TaskList tasks={tasks} />
+          <TaskList tasks={tasks} onDelete={deleteTask} />
         </div>
       </section>
     </main>
