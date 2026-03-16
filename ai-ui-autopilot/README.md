@@ -11,6 +11,7 @@ Agents
 - Orchestrator Agent
 - Architect Agent
 - UI Developer Agent
+- TEST Agent
 - QA Agent
 - GitOps Agent
 
