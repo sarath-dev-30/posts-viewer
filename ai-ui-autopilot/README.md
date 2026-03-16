@@ -23,23 +23,4 @@ Workflow
 4. Commit feature
 5. Push to repository
 
-How our system works
-User Prompt
-   ↓
-Orchestrator
-   ↓
-Read product-requirements.md
-   ↓
-For each Feature
-   ↓
-Architect Agent
-   ↓
-UI Agent
-   ↓
-Test Agent (Unit Tests)
-   ↓
-QA Agent (Validation)
-   ↓
-GitOps Agent (commit + push)
-   ↓
-Next Feature
+
