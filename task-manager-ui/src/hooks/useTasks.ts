@@ -1,4 +1,4 @@
-import { useCallback, useReducer } from 'react'
+import { useCallback, useEffect, useReducer } from 'react'
 import type { Task } from '../types'
 
 type Action =
@@ -27,8 +27,33 @@ function tasksReducer(state: Task[], action: Action): Task[] {
   }
 }
 
+const STORAGE_KEY = 'task-manager-ui.tasks'
+
+function loadTasks(initialTasks: Task[]) {
+  if (typeof window === 'undefined' || typeof localStorage === 'undefined') {
+    return initialTasks
+  }
+
+  try {
+    const stored = localStorage.getItem(STORAGE_KEY)
+    if (!stored) return initialTasks
+    const parsed = JSON.parse(stored) as Task[]
+    return Array.isArray(parsed) ? parsed : initialTasks
+  } catch {
+    return initialTasks
+  }
+}
+
 export function useTasks(initialTasks: Task[] = []) {
-  const [tasks, dispatch] = useReducer(tasksReducer, initialTasks)
+  const [tasks, dispatch] = useReducer(tasksReducer, initialTasks, () => loadTasks(initialTasks))
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(tasks))
+    } catch {
+      // Ignore local storage errors
+    }
+  }, [tasks])
 
   const addTask = useCallback((title: string) => {
     if (!title.trim()) return
