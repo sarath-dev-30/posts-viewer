@@ -33,5 +33,8 @@ git push origin main
 Output:
 Committed and pushed changes to repository.
 
+Instructions:
+Refer to `.instructions/gitops-agent-instructions.md`
+
 Skills:
 Refer to `.skills/gitops-agent-skills.md`

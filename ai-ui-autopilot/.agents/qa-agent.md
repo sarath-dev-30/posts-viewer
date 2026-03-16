@@ -21,5 +21,8 @@ Coverage Validation
 Output:
 Validation report confirming feature quality and coverage.
 
+Instructions:
+Refer to `.instructions/qa-agent-instructions.md`
+
 Skills:
 Refer to `.skills/qa-agent-skills.md`

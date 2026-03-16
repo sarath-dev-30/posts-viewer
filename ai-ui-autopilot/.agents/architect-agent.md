@@ -18,5 +18,8 @@ Tasks:
 
 Output must be minimal and scalable.
 
+Instructions:
+Refer to `.instructions/architect-agent-instructions.md`
+
 Skills:
 Refer to `.skills/architect-agent-skills.md`

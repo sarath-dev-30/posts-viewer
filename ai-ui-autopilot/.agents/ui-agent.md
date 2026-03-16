@@ -18,10 +18,8 @@ Steps:
 Output:
 Functional UI components ready for testing.
 
-Rules:
-
-Do not modify unrelated code.
-Keep components reusable.
+Instructions:
+Refer to `.instructions/ui-agent-instructions.md`
 
 Skills:
 Refer to `.skills/ui-agent-skills.md`

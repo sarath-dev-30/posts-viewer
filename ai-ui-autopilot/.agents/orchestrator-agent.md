@@ -25,10 +25,8 @@ Continue until all features are implemented.
 Output:
 All features implemented, tested, validated, and committed.
 
-Rules:
-
-Each feature must produce one git commit.
-Do not skip steps.
+Instructions:
+Refer to `.instructions/orchestrator-agent-instructions.md`
 
 Skills:
 Refer to `.skills/orchestrator-agent-skills.md`

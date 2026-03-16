@@ -24,12 +24,8 @@ Coverage Requirement
 Output:
 Comprehensive unit tests achieving required coverage.
 
-Rules
-
-- Do NOT create snapshot tests.
-- Do NOT use toMatchSnapshot().
-- Prefer behavior-based tests using React Testing Library.
-- Focus on user interaction and component logic.
+Instructions:
+Refer to `.instructions/test-agent-instructions.md`
 
 Skills:
 Refer to `.skills/test-agent-skills.md`
