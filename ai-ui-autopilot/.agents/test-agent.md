@@ -3,6 +3,9 @@
 Role:
 Write unit tests for the implemented feature.
 
+Input:
+Implemented UI components from ui-agent.
+
 Testing Stack
 
 - Jest
@@ -17,6 +20,9 @@ Coverage Requirement
   - functions
   - lines
   - statements
+
+Output:
+Comprehensive unit tests achieving required coverage.
 
 Rules
 

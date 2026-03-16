@@ -3,6 +3,9 @@
 Role:
 Handle git operations automatically.
 
+Input:
+Modified files from implemented feature.
+
 Process:
 
 1. Detect modified files.
@@ -26,6 +29,9 @@ git commit -m "<generated-message>"
 5. Push changes.
 
 git push origin main
+
+Output:
+Committed and pushed changes to repository.
 
 Skills:
 Refer to `.skills/gitops-agent-skills.md`

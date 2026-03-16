@@ -3,6 +3,9 @@
 Role:
 You coordinate the development process.
 
+Input:
+product-requirements.md
+
 Process:
 
 1. Read product-requirements.md
@@ -18,6 +21,9 @@ For each feature:
 5. Invoke gitops-agent
 
 Continue until all features are implemented.
+
+Output:
+All features implemented, tested, validated, and committed.
 
 Rules:
 

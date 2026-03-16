@@ -1,8 +1,16 @@
 # Orchestration Skills
 
-- Read and interpret project documentation
-- Extract feature backlog from product requirements
-- Execute workflows sequentially
-- Coordinate multiple agents
-- Ensure no workflow steps are skipped
-- Track feature completion status
+- Expert in project management and workflow orchestration
+- Comprehensive reading and interpretation of project documentation
+- Advanced feature extraction and backlog management from requirements
+- Sequential and parallel execution of complex workflows
+- Coordination of multiple agents and team members
+- Ensuring compliance with workflow protocols and no step skipping
+- Real-time tracking of feature completion and progress metrics
+- Risk assessment and mitigation in development processes
+- Integration with project management tools (Jira, Trello, Asana)
+- Agile and Scrum methodology expertise
+- Stakeholder communication and reporting
+- Quality assurance integration in workflows
+- Continuous improvement and process optimization
+- Handling dependencies and critical path analysis
