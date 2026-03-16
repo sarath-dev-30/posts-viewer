@@ -1,0 +1,11 @@
+Read all documentation inside .context, .agents, and .workflow.
+
+Follow the workflow defined in 
+.workflow/master-workflow.md and 
+implement the features listed in .context/product-requirements.md sequentially.
+
+Do not modify the ai-ui-autopilot folder. Treat it as a reference only.
+
+Create the actual application in a separate folder and implement all features there.
+
+Once all features are implemented, install dependencies and run the UI application to ensure it works successfully.
